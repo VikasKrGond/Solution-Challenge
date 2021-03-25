@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
 }
 nav{
-    height: 6rem;
+    height: 5rem;
     width: 100vw;
     background-color: #131418;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -27,9 +27,9 @@ nav{
     text-align: center;
 }
 .logo img {
-    height: 5rem;
+    height: 4rem;
     width: 5rem;
-    border-radius: 0px;
+    border-radius: 30px;
 }
 
 /*Styling Links*/
