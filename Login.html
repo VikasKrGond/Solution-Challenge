@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Login.css">
+  <link rel="icon" href="image/ZeroHungerlogo.png" type="image/icon type">
+  <title>Login/SignUp Form</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+        <img src="image/ZeroHungerlogo.png" alt="Logo Image">
+    </div>
+    <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="Members.html">Our Team</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="index.html#contact">Contact Us</a></li>
+        <li><a href="Login.html"><button class="login-button" href="#">Login</button></a></li>
+        <li><button class="join-button" href="#">Join</button></li>
+    </ul>
+</nav>
+<script src="app.js"></script>
+  <div class="login-wrap">
+    <div class="login-html">
+      <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+      <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+      <div class="login-form">
+        <div class="sign-in-htm">
+          <div class="group">
+            <label for="user" class="label">Username</label>
+            <input id="user" type="text" class="input">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Password</label>
+            <input id="pass" type="password" class="input" data-type="password">
+          </div>
+          <div class="group">
+            <input id="check" type="checkbox" class="check" checked>
+            <label for="check"><span class="icon"></span> Keep me Signed in</label>
+          </div>
+          <div class="group">
+            <input type="submit" class="button" value="Sign In">
+          </div>
+          <div class="hr"></div>
+          <div class="foot-lnk">
+            <a href="#forgot">Forgot Password?</a>
+          </div>
+        </div>
+        <div class="sign-up-htm">
+          <div class="group">
+            <label for="user" class="label">Username</label>
+            <input id="user" type="text" class="input">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Password</label>
+            <input id="pass" type="password" class="input" data-type="password">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Repeat Password</label>
+            <input id="pass" type="password" class="input" data-type="password">
+          </div>
+          <div class="group">
+            <label for="pass" class="label">Email Address</label>
+            <input id="pass" type="text" class="input">
+          </div>
+          <div class="group">
+            <input type="submit" class="button" value="Sign Up">
+          </div>
+          <div class="hr"></div>
+          <div class="foot-lnk">
+            <label for="tab-1">Already Member?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>&copy;This website is made for the Solution Challenge by Google under the theme Zero Hunger</footer>
+</body>
+</html>
